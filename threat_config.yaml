@@ -1,0 +1,17 @@
+severity_mapping:
+  Malicious: High
+  Suspicious: Medium
+  Unrated: Medium
+  Harmless: Low
+
+risk_weights:
+  malicious: 2
+  suspicious: 1
+  unrated: 0.5
+
+ioc_labels:
+  ip: "IP Address"
+  domain: "Domain"
+  md5: "File Hash (MD5)"
+  sha1: "File Hash (SHA1)"
+  sha256: "File Hash (SHA256)"
